@@ -32,6 +32,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Uncomment this
+gem 'therubyracer', platforms: :ruby
+
+# Add this
+gem 'react-rails', '~> 1.0'
+# gem 'sprockets', '>=3.0.0.beta'
+# gem 'sprockets-es6'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
